@@ -134,7 +134,7 @@ const initVditor = (language) => {
     },
   })
 }
-initVditor('zh_CN')
+initVditor('ja_JP')
 window.setLang = (language) => {
   window.vditor.destroy()
   initVditor(language)
